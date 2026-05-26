@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaPreve - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* RESET DE ESTILOS BASES */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff; /* Fundo limpo igual ao papel */
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* CONTAINER DA TELA (Centralizado, mas fluído e focado no desenho) */
+        .login-container {
+            width: 100%;
+            max-width: 600px; /* Largura ideal para manter o formato do esboço */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        /* LOGO / TÍTULO DA MARCA */
+        .logo {
+            font-family: 'Comfortaa', cursive;
+            font-size: 56px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 50px;
+            letter-spacing: -1px;
+            text-align: center;
+        }
+
+        /* FORMULÁRIO */
+        form {
+            width: 100%;
+            max-width: 420px; /* Alinha a largura dos blocos e do botão de login */
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+
+        /* BLOCO DE INPUT (Label acima da caixa de texto) */
+        .input-block {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            width: 100%;
+        }
+
+        .input-block label {
+            font-family: 'Comfortaa', cursive;
+            font-size: 18px;
+            color: #1e293b;
+            text-align: left;
+            padding-left: 2px;
+        }
+
+        .input-block input {
+            width: 100%;
+            padding: 14px 20px;
+            border: 2px solid #1e293b; /* Traço forte e arredondado do desenho */
+            border-radius: 14px;
+            font-size: 16px;
+            outline: none;
+            background-color: #ffffff;
+            transition: all 0.2s ease;
+        }
+
+        /* Efeito de foco suave */
+        .input-block input:focus {
+            box-shadow: 0 0 0 4px rgba(30, 41, 59, 0.08);
+        }
+
+        /* BOTÃO LOGIN (Espaçado abaixo das caixas) */
+        .button-container {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .btn-login {
+            width: 100%;
+            font-family: 'Comfortaa', cursive;
+            font-size: 18px;
+            color: #1e293b;
+            background-color: #ffffff;
+            padding: 14px;
+            border: 2px solid #1e293b; /* Contorno idêntico ao botão inferior do esboço */
+            border-radius: 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        /* Efeito de inversão de cores ao passar o mouse */
+        .btn-login:hover {
+            background-color: #1e293b;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        
+        <div class="logo">VitaPreve</div>
+        
+        <form action="#" method="POST">
+            
+            <div class="input-block">
+                <label for="email">email</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="input-block">
+                <label for="senha">senha</label>
+                <input type="password" id="senha" required>
+            </div>
+            
+            <div class="button-container">
+                <button type="submit" class="btn-login">login</button>
+            </div>
+            
+        </form>
+        
+    </div>
+
+</body>
+</html>

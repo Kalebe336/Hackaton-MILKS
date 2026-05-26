@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaPrev - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* RESET DE ESTILOS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Um fundo off-white suave para não cansar os olhos */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* CARD PRINCIPAL (Borda arredondada do seu desenho) */
+        .login-card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 540px; /* Mantém a proporção retangular do desenho */
+            padding: 60px 40px;
+            border-radius: 28px; /* Cantos bem arredondados como no esboço */
+            border: 2px solid #1e293b; /* Linha preta/escura bem definida do contorno */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03); /* Sombra sutil para dar profundidade */
+            text-align: center;
+        }
+
+        /* LOGO / TÍTULO */
+        .logo {
+            font-family: 'Comfortaa', cursive; /* Fonte arredondada similar ao traço do desenho */
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 40px;
+            letter-spacing: -1px;
+        }
+
+        /* FORMULÁRIO E INPUTS */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            width: 100%;
+            max-width: 320px; /* Centraliza e limita a largura dos botões/campos */
+            margin: 0 auto;
+        }
+
+        .input-group {
+            text-align: left;
+        }
+
+        input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1.5px solid #cbd5e1;
+            border-radius: 12px;
+            font-size: 15px;
+            font-family: 'Inter', sans-serif;
+            color: #1e293b;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        /* Efeito de foco quando o usuário clica no campo */
+        input:focus {
+            border-color: #00f2ff; /* Tom azul tecnológico de saúde */
+            box-shadow: 0 0 0 3px rgba(0, 242, 255, 0.1);
+        }
+
+        /* BOTÃO DE LOGIN (O botão destacado do seu desenho) */
+        .btn-login {
+            background-color: #ffffff;
+            color: #1e293b;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 14px;
+            border: 2px solid #1e293b; /* Borda idêntica ao seu desenho */
+            border-radius: 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-top: 10px;
+        }
+
+        /* Efeito ao passar o mouse no botão de Login */
+        .btn-login:hover {
+            background-color: #1e293b;
+            color: #ffffff;
+        }
+
+        /* LINK DE CADASTRO (Texto simples abaixo do botão) */
+        .signup-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #64748b;
+            text-decoration: none;
+            font-size: 15px;
+            transition: color 0.2s ease;
+        }
+
+        .signup-link:hover {
+            color: #1e293b;
+            text-shadow: 0.5px 0 0 #1e293b; /* Simula um bold suave no hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-card">
+        
+        <div class="logo">VitaPreve</div>
+        
+        <form action="#" method="POST">
+            <div class="input-group">
+                <input type="email" placeholder="E-mail" required>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" placeholder="Senha" required>
+            </div>
+            
+            <button type="submit" class="btn-login">login</button>
+        </form>
+        
+        <a href="#" class="signup-link">cadastro</a>
+        
+    </div>
+
+</body>
+</html>
