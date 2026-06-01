@@ -1,0 +1,267 @@
+/* Paleta de Cores Oficial VitaPrev */
+:root {
+    --primary-blue: #3698BF;
+    --dark-green: #65A66F;
+    --medium-green: #72A67A;
+    --light-green: #99BF9F;
+    --light-gray: #F2F2F2;
+    --dark-text: #2A3B31;
+    --white: #FFFFFF;
+    --alert-red: #D9534F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--light-gray);
+    color: var(--dark-text);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header & Navegação */
+header {
+    background-color: var(--white);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-container img {
+    height: 50px;
+    width: auto;
+}
+
+.logo-container h1 {
+    color: var(--primary-blue);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+nav a {
+    color: var(--dark-green);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover, nav a.active {
+    color: var(--primary-blue);
+}
+
+/* Container Principal */
+.main-container {
+    flex: 1;
+    max-width: 1200px;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+/* Formulários e Cards Estilizados */
+.card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    margin-bottom: 2rem;
+    border-top: 5px solid var(--dark-green);
+}
+
+.card-blue {
+    border-top-color: var(--primary-blue);
+}
+
+h2 {
+    color: var(--dark-text);
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: var(--primary-blue);
+    outline: none;
+}
+
+/* Botões e Ações Padronizados */
+.btn, button {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50px; /* Estilo pílula moderno */
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: auto; /* Evita que botões <a> ocupem 100% por padrão */
+}
+
+.btn:hover, button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.btn:active, button:active {
+    transform: translateY(-1px);
+}
+
+.btn-primary, button {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+.btn-primary:hover, button:hover {
+    background-color: #297A9B;
+}
+
+.btn-secondary {
+    background-color: var(--dark-green);
+    color: var(--white);
+}
+.btn-secondary:hover {
+    background-color: #518559;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+    box-shadow: none;
+}
+.btn-outline:hover {
+    background-color: var(--white);
+    color: var(--primary-blue);
+}
+
+.btn-white {
+    background-color: var(--white);
+    color: var(--primary-blue);
+}
+.btn-white:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-danger {
+    background-color: var(--alert-red);
+    color: var(--white);
+}
+.btn-danger:hover {
+    background-color: #A93226;
+}
+
+/* Ajuste para botões dentro de formulários que devem ser largura total */
+form button {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Status Badges */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.badge-bom { background-color: var(--light-green); color: #1E4620; }
+.badge-moderado { background-color: #FFE082; color: #5D4037; }
+.badge-baixo { background-color: #FFCDD2; color: #B71C1C; }
+
+/* Grid Responsivo */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Seção de Exames e Timeline */
+.exame-item {
+    background: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.exame-img {
+    max-width: 120px;
+    border-radius: 6px;
+    border: 2px solid var(--white);
+}
+
+/* Gráficos em CSS Limpo */
+.chart-bar-container {
+    background: #E0E0E0;
+    border-radius: 8px;
+    height: 24px;
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.chart-bar-fill {
+    height: 100%;
+    background-color: var(--medium-green);
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 24px;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Responsividade Mobile */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    nav a { margin: 0 10px; }
+}
