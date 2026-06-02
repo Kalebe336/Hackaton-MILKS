@@ -29,8 +29,8 @@ Proposta de valor: Os laboratórios contratam o VitaPrev como um portal de resul
 Back-End: Node.js com o framework Express.
 Upload de Arquivos: Multer (gerenciamento seguro e salvamento das fotos dos exames na pasta do servidor).
 Autenticação: Express-session (controle de sessões e proteção de rotas privadas).
-Banco de Dados: PostgreSQL (gerenciado via pgAdmin4) para persistência real e íntegra de dados históricos.
-Front-End: HTML5, CSS3 profissional (responsivo para computadores e celulares utilizando a paleta de cores azul e verde medicinal e logo oficial) e JavaScript Vanilla.
+Banco de Dados: MOCK
+Front-End: HTML5, CSS profissional (responsivo para computadores e celulares utilizando a paleta de cores azul e verde medicinal e logo oficial) e JavaScript.
 
 6. Estrutura do Banco de Dados (PostgreSQL)
 O banco de dados relacional é estruturado em quatro tabelas principais:
