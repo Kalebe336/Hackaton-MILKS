@@ -8,25 +8,5 @@
     "exames": [],
     "nutricao": [],
     "sono": []
-  },
-  {
-    "id": 1780419314497,
-    "nome": "kalebe kramer",
-    "email": "kalebekramer336@gmail.com",
-    "senha": "$2b$10$X5lYumdke2boERo0MroVL.kpCObpaYvVjzodPZG5qZQMWFXNTql8y",
-    "idade": 18,
-    "exames": [
-      {
-        "id": 1780419330237,
-        "tipo": "GLICEMIA",
-        "valor": 95.5,
-        "classificacao": "Bom",
-        "mensagem": "Nível de açúcar em jejum normal.",
-        "foto": "/uploads/1780419330233.webp",
-        "data": "02/06/2026"
-      }
-    ],
-    "nutricao": [],
-    "sono": []
   }
 ]
