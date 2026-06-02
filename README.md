@@ -8,7 +8,7 @@ Kalebe Kramer,
 Isabella Wentz de Souza
 
 1. O que é o VitaPrev?
-O VitaPrev é uma plataforma digital de saúde preventiva de modelo corporativo que atua como um tradutor de exames laboratoriais para o paciente comum. Ele transforma dados de laudos complexos em explicações visuais, simples e fáceis de entender, integrando os resultados médicos a rotinas de sono e nutrição.
+O VitaPrev é uma plataforma digital de saúde preventiva de modelo corporativo que atua como um tradutor de exames laboratoriais para o paciente comum. Ele transforma dados de laudos complexos em explicações visuais, simples e fáceis de entender, integrando os resultados médicos a rotinas de sono e nutrição. O site é 100 % responsiva.
 
 2. Desafio
 O paciente comum enfrenta uma enorme barreira ao receber um laudo laboratorial: a linguagem técnica e os números isolados.
