@@ -29,19 +29,19 @@ Proposta de valor: Os laboratórios contratam o VitaPrev como um portal de resul
 Back-End: Node.js com o framework Express.
 Upload de Arquivos: Multer (gerenciamento seguro e salvamento das fotos dos exames na pasta do servidor).
 Autenticação: Express-session (controle de sessões e proteção de rotas privadas).
+
 Banco de Dados: MOCK
 Front-End: HTML5, CSS profissional (responsivo para computadores e celulares utilizando a paleta de cores azul e verde medicinal e logo oficial) e JavaScript.
 
-6. Estrutura do Banco de Dados (PostgreSQL)
+7. Estrutura do Banco de Dados (PostgreSQL)
 O banco de dados relacional é estruturado em quatro tabelas principais:
 usuarios: Dados cadastrais do paciente (ID, nome, e-mail, senha e idade).
 exames: Registros vinculados ao usuário contendo tipo de exame, valor numérico, classificação obtida, mensagem de orientação, caminho da foto anexada e data.
 nutricao: Histórico de refeições com nome do alimento, gramas de carboidratos, gramas de proteínas e data.
-sono: Histórico de descanso contendo quantidade de horas dormidas, status de qualidade e data.
+sono: Histórico de descanso contendo quantidade de horas dormidas, status de qualidade e data. ( O BANCO DE DADOS NO POSTGRES EXISTE, MAS INFELIZMENTE NÃO CONSEGUIMOS CONECTAR PERFEITAMENTE COM O SISTEMA, POR ISSO O MOCK.)
 
-7. Instruções para Execução Local
-Certifique-se de ter o Node.js e o pgAdmin4 instalados.
-Crie um banco de dados chamado vitaprev no seu PostgreSQL e crie as tabelas baseadas na estrutura acima.
+8. Instruções para Execução Local
+Certifique-se de ter o Node.js
 No terminal da pasta do projeto, instale as dependências executando:
 npm install express express-session multer pg
 Coloque o arquivo de logotipo na pasta public/logo.png.
