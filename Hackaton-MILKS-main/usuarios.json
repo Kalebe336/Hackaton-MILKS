@@ -8,5 +8,133 @@
     "exames": [],
     "nutricao": [],
     "sono": []
+  },
+  {
+    "id": 1780938377864,
+    "nome": "kalebe kramer",
+    "email": "kalebekramer336@gmail.com",
+    "senha": "$2b$10$Y.Luc/yQjXch8kKk8qxij.JWG.Hj0G.i8DNIb1TUAbPVBkVHG.nRu",
+    "idade": 18,
+    "exames": [
+      {
+        "id": 1780939341938,
+        "tipo": "GLICEMIA",
+        "valor": 500,
+        "classificacao": "Baixo (Alerta)",
+        "mensagem": "Glicemia alta compatível com Diabetes. Procure um médico.",
+        "foto": "/uploads/1780939341937.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780939331254,
+        "tipo": "GLICEMIA",
+        "valor": 100,
+        "classificacao": "Moderado",
+        "mensagem": "Glicemia de jejum alterada (Pré-diabetes). Atenção à dieta.",
+        "foto": "/uploads/1780939331253.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780939318538,
+        "tipo": "GLICEMIA",
+        "valor": 50,
+        "classificacao": "Bom",
+        "mensagem": "Nível de açúcar em jejum normal.",
+        "foto": "/uploads/1780939318536.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780939217095,
+        "tipo": "GLICEMIA",
+        "valor": 90,
+        "classificacao": "Bom",
+        "mensagem": "Nível de açúcar em jejum normal.",
+        "foto": "/uploads/1780939217094.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780939180480,
+        "tipo": "GLICEMIA",
+        "valor": 90,
+        "classificacao": "Bom",
+        "mensagem": "Nível de açúcar em jejum normal.",
+        "foto": "/uploads/1780939180478.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780938973074,
+        "tipo": "GLICEMIA",
+        "valor": 100,
+        "classificacao": "Moderado",
+        "mensagem": "Glicemia de jejum alterada (Pré-diabetes). Atenção à dieta.",
+        "foto": "/uploads/1780938973072.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780938836898,
+        "tipo": "GLICEMIA",
+        "valor": 90000,
+        "classificacao": "Baixo (Alerta)",
+        "mensagem": "Glicemia alta compatível com Diabetes. Procure um médico.",
+        "foto": "/uploads/1780938836897.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780938809518,
+        "tipo": "GLICEMIA",
+        "valor": 69,
+        "classificacao": "Bom",
+        "mensagem": "Nível de açúcar em jejum normal.",
+        "foto": "/uploads/1780938809516.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780938537259,
+        "tipo": "GLICEMIA",
+        "valor": 10,
+        "classificacao": "Bom",
+        "mensagem": "Nível de açúcar em jejum normal.",
+        "foto": "/uploads/1780938537258.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780938518579,
+        "tipo": "GLICEMIA",
+        "valor": 80,
+        "classificacao": "Bom",
+        "mensagem": "Nível de açúcar em jejum normal.",
+        "foto": "/uploads/1780938518578.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780938481910,
+        "tipo": "LIPIDIO",
+        "valor": 500,
+        "classificacao": "Baixo (Alerta)",
+        "mensagem": "Colesterol alto. Risco cardiovascular aumentado.",
+        "foto": "/uploads/1780938481908.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780938456890,
+        "tipo": "GLICEMIA",
+        "valor": 10000,
+        "classificacao": "Baixo (Alerta)",
+        "mensagem": "Glicemia alta compatível com Diabetes. Procure um médico.",
+        "foto": "/uploads/1780938456889.webp",
+        "data": "08/06/2026"
+      },
+      {
+        "id": 1780938440549,
+        "tipo": "GLICEMIA",
+        "valor": 500,
+        "classificacao": "Baixo (Alerta)",
+        "mensagem": "Glicemia alta compatível com Diabetes. Procure um médico.",
+        "foto": "/uploads/1780938440527.webp",
+        "data": "08/06/2026"
+      }
+    ],
+    "nutricao": [],
+    "sono": []
   }
 ]

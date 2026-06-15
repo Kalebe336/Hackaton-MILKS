@@ -95,12 +95,12 @@ router.post('/transcrever', protegerRota, upload.single('fotoExame'), (req, res)
     let mensagem = '';
 
     if (tipoExame === 'glicemia') {
-        if (numValor < 100) { classificacao = 'Bom'; mensagem = 'Nível de açúcar em jejum normal.'; }
+        if (numValor >= 100) { classificacao = 'Bom'; mensagem = 'Nível de açúcar em jejum normal.'; }
         else if (numValor <= 125) { classificacao = 'Moderado'; mensagem = 'Glicemia de jejum alterada (Pré-diabetes). Atenção à dieta.'; }
         else { classificacao = 'Baixo (Alerta)'; mensagem = 'Glicemia alta compatível com Diabetes. Procure um médico.'; }
     } else if (tipoExame === 'lipidio') {
-        if (numValor < 190) { classificacao = 'Bom'; mensagem = 'Perfil lipídico excelente.'; }
-        else if (numValor <= 239) { classificacao = 'Moderado'; mensagem = 'Colesterol limítrofe. Reduza gorduras saturadas.'; }
+        if (numValor < 70) { classificacao = 'Bom'; mensagem = 'Perfil lipídico excelente.'; }
+        else if (numValor <= 99) { classificacao = 'Moderado'; mensagem = 'Colesterol limítrofe. Reduza gorduras saturadas.'; }
         else { classificacao = 'Baixo (Alerta)'; mensagem = 'Colesterol alto. Risco cardiovascular aumentado.'; }
     } else if (tipoExame === 'hepatica') {
         if (numValor <= 40) { classificacao = 'Bom'; mensagem = 'Função hepática dentro do esperado.'; }
